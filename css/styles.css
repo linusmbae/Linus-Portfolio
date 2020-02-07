@@ -63,5 +63,14 @@ body
 .about2
 {
   border: solid yellow;
+  border-radius: 8px;
 
+}
+.about2 h1
+{
+  text-align: center;
+}
+.about2 p
+{
+  font-size: 25px;
 }
