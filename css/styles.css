@@ -1,4 +1,23 @@
-.navigation
+.navigation a
 {
   text-decoration: none;
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 2%;
+}
+.navigation h1
+{
+  color: white;
+  margin-left: 15%;
+}
+.navigation
+{
+  background-color: black;
+}
+.right
+{
+  margin-left: 50%;
+  margin-top: -4%;
+  background-color: gray;
+  border-radius: 25%;
 }
