@@ -1,4 +1,4 @@
-
+/* index navigation starts */
 .navigation a
 {
   text-decoration: none;
@@ -15,22 +15,7 @@
 {
   background-color: black;
 }
-.navigation1 a
-{
-  text-decoration: none;
-  font-family: fantasy;
-  font-size: 30px;
-  margin-left: 2%;
-}
-.navigation1 h1
-{
-  color: white;
-  margin-left: 15%;
-}
-.navigation1
-{
-  background-color: black;
-}
+
 .right
 {
   margin-left: 50%;
@@ -38,13 +23,7 @@
   background-color: gray;
   border-radius: 25%;
 }
-.right1
-{
-  margin-left: 50%;
-  margin-top: -4%;
-  background-color: gray;
-  border-radius: 25%;
-}
+
 .picture img
 {
   height: 500px;
@@ -97,6 +76,33 @@
 {
   margin-left: 300px;
 }
+/* index ends */
+
+/* project starts */
+.navigation1 a
+{
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 2%;
+}
+.navigation1 h1
+{
+  color: white;
+  margin-left: 15%;
+}
+.navigation1
+{
+  background-color: black;
+}
+.right1
+{
+  margin-left: 50%;
+  margin-top: -4%;
+  background-color: gray;
+  border-radius: 25%;
+}
+
 .links
 {
   border-width: thick;
@@ -117,6 +123,33 @@
   font-weight: bolder;
   margin-left: 5px;
 }
+/* project ends */
+
+/* contact starts */
+.contact-navigation a
+{
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 2%;
+}
+.contact-navigation h1
+{
+  color: white;
+  margin-left: 15%;
+}
+.contact-navigation
+{
+  background-color: black;
+}
+
+.contact-right
+{
+  margin-left: 50%;
+  margin-top: -4%;
+  background-color: gray;
+  border-radius: 25%;
+}
 
 .content
 {
@@ -130,7 +163,9 @@
 {
   margin-left: 30%;
 }
+/* contact ends */
 
+/* @media starts */
 @media screen and (min-width:480px) and (max-width:769px)
 {
 body
@@ -209,7 +244,34 @@ margin-left: 0;
 }
 /* projects @media screen ends */
 /* contacts @media screen starts */
+.contact-navigation
+{
+  width: 100%;
 
+
+
+}
+.contact-navigation h1
+{
+
+  text-align: center;
+
+}
+
+
+.contact-right
+{
+  float: left;
+  margin-left: 0;
+  border-radius: 0;
+
+}
+.contact-right a
+{
+  font-size: 12px;
+  text-align: left;
+
+}
 /* contacts @media screen starts */
 }
 
@@ -223,3 +285,5 @@ body
      background-color: #cccccc;
 }
 }
+
+/* @media ends */
