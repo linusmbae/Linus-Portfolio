@@ -107,6 +107,7 @@
 {
   margin-left: 30%;
 }
+
 @media screen and (min-width:480px) and (max-width:769px)
 {
 body
@@ -115,6 +116,7 @@ body
      background-color: black;
      color: gold;
 }
+/* index @media screen start */
 .picture img
 {
   height: 200px;
@@ -159,7 +161,14 @@ margin-left: 0;
 {
   font-size: 15px;
 }
+/* index @media screen ends */
+/* projects @media screen start */
+
+/* projects @media screen ends */
 }
+
+
+
 @media screen and (min-width:770px)
 {
 body
