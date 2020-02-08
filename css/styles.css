@@ -15,7 +15,30 @@
 {
   background-color: black;
 }
+.navigation1 a
+{
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 2%;
+}
+.navigation1 h1
+{
+  color: white;
+  margin-left: 15%;
+}
+.navigation1
+{
+  background-color: black;
+}
 .right
+{
+  margin-left: 50%;
+  margin-top: -4%;
+  background-color: gray;
+  border-radius: 25%;
+}
+.right1
 {
   margin-left: 50%;
   margin-top: -4%;
@@ -153,7 +176,8 @@ margin-left: 0;
 }
 .right
 {
-  float: left;margin-left: 0;
+  float: left;
+  margin-left: 0;
   border-radius: 0;
   width: 450px;
 }
@@ -163,8 +187,28 @@ margin-left: 0;
 }
 /* index @media screen ends */
 /* projects @media screen start */
+.links
+{
+  float: left;
+  margin-left: 0;
+  margin-top: 25px;
+  background-color: blue;
+  color: black;
+}
+.right1
+{
+  float: left;
+  margin-left: 0;
+  border-radius: 0;
+  width: 550px;
+}
+.right1 a
+{
+  font-size: 12px;
 
+}
 /* projects @media screen ends */
+/* contacts @media screen starts */
 }
 
 
